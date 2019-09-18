@@ -1,12 +1,8 @@
-//
-//  main.swift
-//  9.18.01
-//
-//  Created by s20181105879 on 2019/9/18.
-//  Copyright © 2019 s20181105879. All rights reserved.
-//
+import Cocoa
 
-import Foundation
+var varA   = 20
+let constA = 100
+var varC:Float = 20.0
 
-print("Hello, World!")
-
+var stringA = "\(varA) 乘于 \(constA) 等于 \(varC * 100)"
+print( stringA )
