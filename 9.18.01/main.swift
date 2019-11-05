@@ -1,8 +1,11 @@
 import Cocoa
 
-var varA   = 20
-let constA = 100
-var varC:Float = 20.0
+var someInts = [Int]()
 
-var stringA = "\(varA) 乘于 \(constA) 等于 \(varC * 100)"
-print( stringA )
+someInts.append(20)
+someInts.append(30)
+someInts += [40,50]
+for inem in someInts
+{
+    print(inem)
+}
